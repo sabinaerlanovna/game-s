@@ -27,3 +27,14 @@ body{
     font-family:'Press Start 2P', cursive ;
     margin: 0px 300px 0px 400px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+canvas {
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
