@@ -229,11 +229,7 @@ else if (player.position.y > canvas.height){
 }
 }
 
-// // lose condition
-// if (player.position.y > canvas.height){
-//   goBack()
-//  }
-// // console.log('you lose')
+
 animate()
 
 window.addEventListener('keydown' , ({ keyCode }) => {
