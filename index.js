@@ -219,7 +219,15 @@ platforms.forEach((platform) => {
   })
 
   let win = document.querySelector('#win')
+
 // win condition
+if (scrollOfset > 4000){
+  console.log('YOU WIN !!!');
+  btn.innerHTML = 'you win !!!';}
+else if (player.position.y > canvas.height){
+  btn.innerHTML = ("O no you lose :(");
+}
+}
 
 // // lose condition
 // if (player.position.y > canvas.height){
@@ -280,4 +288,4 @@ window.addEventListener('keyup' , ({ keyCode }) => {
    }
 
    console.log(keys.right.pressed)
- })}
+ })
